@@ -1,0 +1,239 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		91503CAE16495B9500F431AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91503CAD16495B9500F431AB /* Foundation.framework */; };
+		91503CB116495B9600F431AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 91503CB016495B9600F431AB /* main.m */; };
+		91503CB516495B9600F431AB /* _______1____.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 91503CB416495B9600F431AB /* _______1____.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		91503CA716495B9500F431AB /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				91503CB516495B9600F431AB /* _______1____.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		91503CA916495B9500F431AB /* Проект 1 ДНК */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Проект 1 ДНК"; sourceTree = BUILT_PRODUCTS_DIR; };
+		91503CAD16495B9500F431AB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		91503CB016495B9600F431AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		91503CB316495B9600F431AB /* Проект 1 ДНК-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Проект 1 ДНК-Prefix.pch"; sourceTree = "<group>"; };
+		91503CB416495B9600F431AB /* _______1____.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = "_______1____.1"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91503CA616495B9500F431AB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91503CAE16495B9500F431AB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		91503C9E16495B9500F431AB = {
+			isa = PBXGroup;
+			children = (
+				91503CAF16495B9600F431AB /* Проект 1 ДНК */,
+				91503CAC16495B9500F431AB /* Frameworks */,
+				91503CAA16495B9500F431AB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91503CAA16495B9500F431AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91503CA916495B9500F431AB /* Проект 1 ДНК */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91503CAC16495B9500F431AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91503CAD16495B9500F431AB /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91503CAF16495B9600F431AB /* Проект 1 ДНК */ = {
+			isa = PBXGroup;
+			children = (
+				91503CB016495B9600F431AB /* main.m */,
+				91503CB416495B9600F431AB /* _______1____.1 */,
+				91503CB216495B9600F431AB /* Supporting Files */,
+			);
+			path = "Проект 1 ДНК";
+			sourceTree = "<group>";
+		};
+		91503CB216495B9600F431AB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				91503CB316495B9600F431AB /* Проект 1 ДНК-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91503CA816495B9500F431AB /* Проект 1 ДНК */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91503CB816495B9600F431AB /* Build configuration list for PBXNativeTarget "Проект 1 ДНК" */;
+			buildPhases = (
+				91503CA516495B9500F431AB /* Sources */,
+				91503CA616495B9500F431AB /* Frameworks */,
+				91503CA716495B9500F431AB /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Проект 1 ДНК";
+			productName = "Проект 1 ДНК";
+			productReference = 91503CA916495B9500F431AB /* Проект 1 ДНК */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91503CA016495B9500F431AB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "КYННЭЙ";
+			};
+			buildConfigurationList = 91503CA316495B9500F431AB /* Build configuration list for PBXProject "Проект 1 ДНК" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 91503C9E16495B9500F431AB;
+			productRefGroup = 91503CAA16495B9500F431AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91503CA816495B9500F431AB /* Проект 1 ДНК */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91503CA516495B9500F431AB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91503CB116495B9600F431AB /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		91503CB616495B9600F431AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		91503CB716495B9600F431AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		91503CB916495B9600F431AB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Проект 1 ДНК/Проект 1 ДНК-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		91503CBA16495B9600F431AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Проект 1 ДНК/Проект 1 ДНК-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91503CA316495B9500F431AB /* Build configuration list for PBXProject "Проект 1 ДНК" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91503CB616495B9600F431AB /* Debug */,
+				91503CB716495B9600F431AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91503CB816495B9600F431AB /* Build configuration list for PBXNativeTarget "Проект 1 ДНК" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91503CB916495B9600F431AB /* Debug */,
+				91503CBA16495B9600F431AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91503CA016495B9500F431AB /* Project object */;
+}
